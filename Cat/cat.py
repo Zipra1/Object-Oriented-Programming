@@ -33,9 +33,9 @@ class ScratchPost:
         else:
             self.hp -= 1
             return True
-    def __str__(self):
+    def __str__(self): ## If trying to use str(), this is what it will be converted into.
         return (f'A scratch post. Scratches left: {self.hp}')
-    def __int__(self):
+    def __int__(self): ## If trying to use int(), this is what it will be converted into.
         return self.hp
-    def __repr__(self):
+    def __repr__(self): # If trying to use print(), this is what will be printed.
         return self.__str__()
