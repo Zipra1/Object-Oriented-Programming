@@ -1,4 +1,13 @@
-Class names always start with a capital letter
- -> This is because when importing, you do not want "from cat import cat", you want "from cat import Cat"
+# Object Oriented Programming Note #1
 
- 
+```python
+
+# Example of a Class Definition in Python
+class Person:
+    def __init__(self,name):
+        self.name = name
+       
+    def __str__(self):
+        return f"Person Object called: {self.name}"
+
+```
